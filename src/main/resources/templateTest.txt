@@ -1,0 +1,13 @@
+@Test
+public void #methodname#Test() throws Exception {
+    // Setup
+    // Set input
+    #parameters#
+    final #return# expectedResult = new #return#();
+    when(#targetname#Mock.#methodname#(null)).thenReturn(expectedResult);
+
+    // Run the test
+    final #return# result = #targetname#.compatibilita(SAID);
+
+    assertEquals(#targetname#Mock.#methodname#(null), result);
+}
